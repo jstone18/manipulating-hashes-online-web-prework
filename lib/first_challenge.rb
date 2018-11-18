@@ -13,7 +13,8 @@ def first_challenge
     }
   }
 
-  
+  no_strawberry = ["cookie dough", "mint chip"]
+  contacts["Freddy Mercury"][:favorite_icecream_flavors] = no_strawberry
 
 
   #remember to return your newly altered contacts hash!
