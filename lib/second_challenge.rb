@@ -8,9 +8,8 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values_at(:dairy, :vegetable, :meat, :grains) = groceries_value
+  groceries.values.flatten 
 
-  groceries_value.flatten
 
 
 end
